@@ -1,0 +1,7 @@
+
+public class Test {
+	protected String cad;
+	public Test() {
+		cad ="hola mundoi"
+	}
+}

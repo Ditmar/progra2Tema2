@@ -1,0 +1,16 @@
+
+public class Mate {
+	public Mate() {
+		
+	}
+	public Double sumar(Double a, Double b) {
+		return a + b;
+	}
+	public Double sumar(Double a, Double b) {
+		return a + b;
+	}
+	public Double sumar(Double a, Double b) {
+		return a + b;
+	}
+	
+}

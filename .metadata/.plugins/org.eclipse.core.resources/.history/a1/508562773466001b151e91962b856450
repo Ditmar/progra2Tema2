@@ -1,0 +1,15 @@
+package account;
+
+public class Account {
+	private Double balance;
+	public Account(Double balance) {
+		this.balance = balance;
+	}
+	//Ingresar datos
+	public void addBalance(Double money) {
+		this.balance = this.balance + money;
+	}
+	public void extracBalance(Double money) {
+		
+	}
+}

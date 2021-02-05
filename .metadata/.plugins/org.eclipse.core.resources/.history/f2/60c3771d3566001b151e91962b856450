@@ -1,0 +1,11 @@
+package account;
+
+public class LimitAccount extends Account {
+	private Double limit;
+	public LimitAccount(Double balance) {
+		super(balance);
+	}
+	public void settingLimit(Double limit) {
+		
+	}
+}

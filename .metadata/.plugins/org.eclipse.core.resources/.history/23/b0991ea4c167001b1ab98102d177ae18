@@ -1,0 +1,8 @@
+package lector;
+
+public class Test {
+	public String a;
+	private String b;
+	private String c;
+	private String d;
+}

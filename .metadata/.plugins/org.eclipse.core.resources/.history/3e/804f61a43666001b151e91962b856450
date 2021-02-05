@@ -1,0 +1,25 @@
+package ejmeplo1POO;
+
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner read = new Scanner(System.in);
+		Integer option = -1;
+		do {
+		  System.out.println("1.-) Crear Cuenta Limitada");
+		  System.out.println("2.-) Agregar Dinero");
+		  System.out.println("3.-) Extraer Dinero");
+		  System.out.println("4.-) salir");
+		  option = Integer.parseInt(read.nextLine()) ;	
+		  switch(option) {
+		  case 1: {
+			  
+		  }
+		  }
+		} while(option != 4);
+	}
+
+}

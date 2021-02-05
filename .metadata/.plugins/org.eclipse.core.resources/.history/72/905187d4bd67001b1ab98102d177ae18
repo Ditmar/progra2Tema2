@@ -1,0 +1,7 @@
+package lector;
+
+import java.io.BufferedReader;
+
+public class Lector extends BufferedReader {
+
+}

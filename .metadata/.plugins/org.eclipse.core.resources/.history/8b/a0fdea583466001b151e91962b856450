@@ -1,0 +1,8 @@
+package account;
+
+public class Account {
+	private Double balance;
+	public Account(Double balance) {
+		this.balance = balance;
+	}
+}

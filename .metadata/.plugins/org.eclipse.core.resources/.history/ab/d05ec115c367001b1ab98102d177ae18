@@ -1,0 +1,7 @@
+package ejempplo3POO;
+
+public class Test extends TestFather {
+	public Test() {
+		
+	}
+}

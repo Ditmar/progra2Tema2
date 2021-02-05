@@ -1,0 +1,12 @@
+package ejempplo3POO;
+
+public class Test extends TestFather {
+	public Test() {
+		
+	}
+	@Override
+	public String imprimir() {
+		
+		return "Imprimiendo Test";
+	}
+}

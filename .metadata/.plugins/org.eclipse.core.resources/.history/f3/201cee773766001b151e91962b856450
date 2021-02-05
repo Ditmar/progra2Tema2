@@ -1,0 +1,39 @@
+package ejmeplo1POO;
+
+import java.util.Scanner;
+
+import account.LimitAccount;
+
+public class main {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner read = new Scanner(System.in);
+		Integer option = -1;
+		LimitAccount account = new LimitAccount(0.0);
+		do {
+		  System.out.println("1.-) Crear Cuenta Limitada");
+		  System.out.println("2.-) Agregar Dinero");
+		  System.out.println("3.-) Extraer Dinero");
+		  System.out.println("4.-) Salir");
+		  option = Integer.parseInt(read.nextLine()) ;	
+		  switch(option) {
+			  case 1: {
+				  System.out.println("Cuanto saldo desea agregar");
+				  Double balance = Double.parseDouble(read.nextLine()) ;	
+				  account.setBalance(balance);
+				  break;
+			  }
+			  case 2: {
+				  System.out.print("Cuanto dinero desea agregrar a la cuenta");
+				  Double balance = Double.parseDouble(read.nextLine()) ;
+				  account.addBalance();
+				  break;
+			  }
+			  case 3: {
+				  break;
+			  }
+		  }
+		} while(option != 4);
+	}
+
+}
